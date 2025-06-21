@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(28, 28, 28);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(20, 193, 61);
+    color: white;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 30px;
+    text-align: center;
+}
