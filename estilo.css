@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+}
+
+#cabeca {
+    display: flex;
+    justify-content: space-around;
+     background-color: black;
+     padding-top: 5px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+#container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(black, blue );
+}
+
+#container-principal > h1 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.283);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 320px;
+    height: 400px;
+    gap: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+#container > a > img {
+    width: 50px;
+    height: 50px;
+}
+
+#nome {
+    align-self: flex-start;
+    width: 270px;
+    height: 40px;
+    margin-top: 40px;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+#email {
+    align-self: flex-start;
+    width: 270px;
+    height: 40px;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+#mensagem {
+    align-self: flex-start;
+    margin-left: 20px;
+    width: 180px;
+    height: 75px;
+    padding: 5px;
+}
+
+#container-icon {
+    display: flex;
+}
+
+.link:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+}
+
+#botao {
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 8px;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    border: 1px solid blue;
+}
+
+#botao:hover {
+    background-color: rgb(31, 31, 254);
+    color: white;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+#nome:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+#email:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
+#mensagem:focus {
+    border: 1px solid blue;
+    outline: none;
+}
